@@ -1,3 +1,5 @@
 site_name: Acahelp Docs
 theme:
   name: material
+  features:
+    - navigation.top
