@@ -3,3 +3,12 @@ theme:
   name: material
   features:
     - navigation.top
+    - search.suggest
+    - navigation.sections
+  plugins:
+    - search
+  nav:
+    - index.md
+    - customizing.md
+    - Countdown Timer.md
+    - support.md
