@@ -5,6 +5,7 @@ theme:
     - navigation.top
     - search.suggest
     - navigation.sections
+    - navigation.tracking
   plugins:
     - search
   nav:
