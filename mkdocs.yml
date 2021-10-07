@@ -8,7 +8,6 @@ theme:
   plugins:
     - search
   nav:
-    - index.md
-    - customizing.md
-    - Countdown Timer.md
-    - support.md
+    - 'Acahelp Docs': index.md
+    - 'Member Account':
+        Getting started as a member: member/index.md
