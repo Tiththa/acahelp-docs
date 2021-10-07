@@ -5,10 +5,11 @@ theme:
     - navigation.top
     - search.suggest
     - navigation.sections
-    - navigation.tracking
+    - navigation.indexes
   plugins:
     - search
   nav:
-    - 'Acahelp Docs': index.md
-    - 'Member Account':
-        Getting started as a member: member/index.md
+    - Getting Started:
+        - 'index.md'
+    - Member Account:
+        - Getting started as a member: 'member/index.md'
