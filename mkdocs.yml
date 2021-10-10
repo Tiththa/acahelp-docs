@@ -8,6 +8,9 @@ theme:
     - navigation.indexes
   plugins:
     - search
+  markdown_extensions:
+    - toc:
+        permalink: "#"  
   nav:
     - Getting Started:
         - 'index.md'
