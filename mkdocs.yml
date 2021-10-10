@@ -10,7 +10,8 @@ theme:
     - search
   markdown_extensions:
     - toc:
-        permalink: "#"  
+        permalink: "#"
+    - tables    
   nav:
     - Getting Started:
         - 'index.md'
