@@ -1,6 +1,15 @@
 site_name: Acahelp Docs
 theme:
   name: material
+  logo: assets/favicon.png
+  favicon: assets/favicon.png
+  extra_css:
+    - 'stylesheets/extra.css'
+  font:
+    text: Muli
+  palette:
+    primary: white
+    accent: light blue
   features:
     - navigation.top
     - search.suggest
@@ -11,7 +20,7 @@ theme:
   markdown_extensions:
     - toc:
         permalink: "#"
-    - tables    
+    - tables
   nav:
     - Getting Started:
         - 'index.md'
