@@ -13,16 +13,12 @@ theme:
   features:
     - navigation.top
     - search.suggest
-    - navigation.sections
-    - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
   plugins:
     - search
   markdown_extensions:
     - toc:
         permalink: "#"
     - tables
-  nav:
-    - Getting Started:
-        - 'index.md'
-    - Member Account:
-        - Getting started as a member: 'member/index.md'
+    - attr_list

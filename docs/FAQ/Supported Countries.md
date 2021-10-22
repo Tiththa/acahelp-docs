@@ -1,4 +1,4 @@
-# Supported countries
+# Supported Countries
 
 Acahelp supports following countries:
 
